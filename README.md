@@ -1,30 +1,25 @@
-# Office Agent — Windows kurulumu
+# Office Agent — Windows
 
-[**Kurulum EXE'sini indir — yaklaşık 966 MB**](https://github.com/kibrit74/OfficeAgent-Downloads/releases/download/v2026.10.23-preview/OfficeAgent-Setup-Windows-x64.exe)
+[**Mevcut kurulumu güncelle**](https://github.com/kibrit74/OfficeAgent-Downloads/releases/download/v2026.10.24-preview.1/OfficeAgent-Update-Windows-x64.exe)
 
-[Sürüm sayfası ve başlama rehberi](https://github.com/kibrit74/OfficeAgent-Downloads/releases/tag/v2026.10.23-preview)
+24 Ekim güncellemesi, **v2026.10.23-preview kurulumunun üzerine** uygulanır. Office Agent ve Hızlı Not pencerelerini kapatıp dosyayı çalıştırın. Uygulamayı kaldırmayın. Hesaplar, notlar, ajanlar ve belgeler korunur; büyük motor bileşenleri yeniden indirilmez.
 
-## Başlama
+[Sürüm notları ve güncelleme rehberi](https://github.com/kibrit74/OfficeAgent-Downloads/releases/tag/v2026.10.24-preview.1)
 
-1. Kurulum dosyasını indirip çalıştır.
-2. Kurulum tamamlanınca masaüstündeki Office Agent kısayolunu aç.
-3. Uygulamadan kendi model hesabını bağla.
+## İlk kez kuracaklar
 
-Python, Hermes ve Docker'ı ayrıca kurman gerekmez. Dosya doğrulama ve motor hazırlığı disk hızına göre zaman alabilir; tamamlanma mesajını bekle.
+Önce [tam Windows kurulumunu indirin](https://github.com/kibrit74/OfficeAgent-Downloads/releases/download/v2026.10.23-preview/OfficeAgent-Setup-Windows-x64.exe), boş klasöre kurun; ardından yukarıdaki güncellemeyi uygulayın.
 
-## Gereksinimler
+Python, Hermes veya Docker'ı ayrıca kurmanız gerekmez. İlk tam kurulumdaki dosya doğrulama ve motor hazırlığı disk hızına göre zaman alabilir.
 
-- Windows 10 (2004 veya üzeri) ya da Windows 11, 64 bit.
-- En az 5 GB boş alan.
-- Model hizmetleri, hesap girişleri ve bilgisayarda eksikse Microsoft WebView2 için internet.
-- Excel bağlantısını kullanmak için Microsoft Excel 2016 veya üzeri masaüstü uygulaması.
+## Hesap bağlantıları
 
-## Deneme sürümü
+Kendi model hesabınızı kullanın. Google Workspace için kendi Google Cloud masaüstü OAuth JSON dosyanızı Ayarlar > Bağlantılar bölümünden ekleyin. Google hizmet izinleri ve hesap yetkilendirmesi gerekir. Instagram/özel MCP için sağlayıcınızın gerçek sunucu adresini ve gerekiyorsa erişim anahtarını girin. Farklı bilgisayar için rastgele sunucu adresi üretilmez.
 
-Bu kişisel deneme paketidir. Yayıncı imzası, otomatik güncelleme ve kapsamlı başlangıç ajanı sonraki sürümler için planlanmaktadır. Yeni ve boş kurulum klasörü kullanın; bu paket mevcut kurulumu güncellemez.
+Paket başka kişinin hesaplarını, model anahtarlarını, sohbetlerini veya belgelerini içermez.
 
-Paket hesap, sohbet, belge veya model anahtarı içermez. Kullanıcılar kendi hesaplarını bağlar.
+## Gereksinimler ve deneme durumu
 
-Bu bilgisayarda ayrı ve boş profille gerçek kurulum, motor, model bağlantı servisleri, yerel tarayıcı ve kaldırma testleri geçti. Farklı bir fiziksel bilgisayar veya sanal makinede henüz denenmedi.
+Windows 10 (2004+) veya Windows 11, 64 bit. İlk kurulum için en az 5 GB boş alan; internet; Excel bağlantısı için Microsoft Excel 2016+ masaüstü uygulaması gerekir.
 
-Başlama rehberi ve SHA256 dosya özetleri sürüm sayfasındaki **Assets** bölümündedir.
+Deneme sürümüdür. Yayıncı imzası ve otomatik güncelleme henüz yoktur. Güncelleme bu bilgisayarda ayrı bir gerçek kurulum kopyasında sınandı; farklı fiziksel bilgisayar ve gerçek Google/Instagram hesaplarıyla son kullanıcı doğrulaması gereklidir.
