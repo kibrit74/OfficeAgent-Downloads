@@ -1,16 +1,24 @@
 # Office Agent — Windows
 
-[**Mevcut kurulumu güncelle**](https://github.com/kibrit74/OfficeAgent-Downloads/releases/download/v2026.10.24-preview.1/OfficeAgent-Update-Windows-x64.exe)
+[**Mevcut kurulumu güncelle**](https://github.com/kibrit74/OfficeAgent-Downloads/releases/download/v2026.10.24-preview.3/OfficeAgent-Update-Windows-x64.exe)
 
-24 Ekim güncellemesi, **v2026.10.23-preview kurulumunun üzerine** uygulanır. Office Agent ve Hızlı Not pencerelerini kapatıp dosyayı çalıştırın. Uygulamayı kaldırmayın. Hesaplar, notlar, ajanlar ve belgeler korunur; büyük motor bileşenleri yeniden indirilmez.
+24 Ekim güncellemesi, **v2026.10.23-preview veya v2026.10.24-preview.1 kurulumunun üzerine** uygulanır. Office Agent ve Hızlı Not pencerelerini kapatıp dosyayı çalıştırın. Uygulamayı kaldırmayın. Hesaplar, notlar, ajanlar ve belgeler korunur; büyük motor bileşenleri yeniden indirilmez.
 
-[Sürüm notları ve güncelleme rehberi](https://github.com/kibrit74/OfficeAgent-Downloads/releases/tag/v2026.10.24-preview.1)
+[Sürüm notları ve güncelleme rehberi](https://github.com/kibrit74/OfficeAgent-Downloads/releases/tag/v2026.10.24-preview.3)
 
 ## İlk kez kuracaklar
 
 Önce [tam Windows kurulumunu indirin](https://github.com/kibrit74/OfficeAgent-Downloads/releases/download/v2026.10.23-preview/OfficeAgent-Setup-Windows-x64.exe), boş klasöre kurun; ardından yukarıdaki güncellemeyi uygulayın.
 
 Python, Hermes veya Docker'ı ayrıca kurmanız gerekmez. İlk tam kurulumdaki dosya doğrulama ve motor hazırlığı disk hızına göre zaman alabilir.
+
+## PowerShell 7
+
+PowerShell 7.6.8 programı bu güncellemeye dahildir. Başlat menüsünden Office Agent > PowerShell 7 yoluyla açabilirsiniz. Uygulamanın kendi klasöründe çalışır. Hızlı Not, uyumlu Windows PowerShell başlatıcısını kullanmaya devam eder.
+
+## WhatsApp
+
+Güncellemeden sonra Ayarlar > Bağlantılar > WhatsApp > Aç yolunu kullanın ve sohbet penceresindeki QR kodunu kendi telefonunuzla okutun. Sunucu ve bağımlılıkları pakete dahildir. Ayrı Node, Docker veya Google Cloud kurulmaz. Yeni bilgisayar kendi oturumunu oluşturur; eski oturum dosyaları silinmez.
 
 ## Hesap bağlantıları
 
